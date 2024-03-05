@@ -1,0 +1,27 @@
+import { StyleSheet } from "react-native";
+import { theme } from "@/theme";
+export const styles = StyleSheet.create({
+  container: {
+    padding: 24,
+    borderRadius: theme.borderRadius.lg,
+    backgroundColor: theme.colors.black,
+    position: "absolute",
+    bottom: 24,
+    width: "100%",
+    alignSelf: "center",
+  },
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 34,
+  },
+  label: {
+    color: theme.colors.white,
+    fontSize: theme.fonts.size.body.sm,
+    fontFamily: theme.fonts.family.regular,
+  },
+  icon: {
+    color: theme.colors.gray_400,
+  },
+});
